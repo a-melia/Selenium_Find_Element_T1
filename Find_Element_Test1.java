@@ -15,7 +15,7 @@ public class Find_Element_Test1 {
         textInput.sendKeys("Sample Text in TextInput field");
 
         WebElement passwordInput = driver.findElement(By.name("my-password"));
-        passwordInput.sendKeys("MyPassword123");
+        passwordInput.sendKeys("MyPassword-123");
 
         WebElement textArea = driver.findElement(By.name("my-textarea"));
         textArea.sendKeys("This is sample text in Text Area");
